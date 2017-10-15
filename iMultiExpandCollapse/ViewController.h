@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+{
+    NSArray *mainArray,* removeArray;
+    NSMutableArray *menuItemsArray,* selectArray;
+    NSIndexPath *selectedIndexPath;
+}
 
+@property (weak, nonatomic) IBOutlet UITableView *tbl_list;
 
 @end
 

@@ -15,6 +15,7 @@
 		14977BAD1F93270D0098B199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14977BAC1F93270D0098B199 /* main.m */; };
 		14977BB71F93270D0098B199 /* iMultiExpandCollapseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14977BB61F93270D0098B199 /* iMultiExpandCollapseTests.m */; };
 		14977BC21F93270D0098B199 /* iMultiExpandCollapseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14977BC11F93270D0098B199 /* iMultiExpandCollapseUITests.m */; };
+		14977BD11F932C430098B199 /* iMultiData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14977BD01F932C430098B199 /* iMultiData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		14977BBD1F93270D0098B199 /* iMultiExpandCollapseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMultiExpandCollapseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14977BC11F93270D0098B199 /* iMultiExpandCollapseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMultiExpandCollapseUITests.m; sourceTree = "<group>"; };
 		14977BC31F93270D0098B199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14977BD01F932C430098B199 /* iMultiData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iMultiData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		14977B9C1F93270D0098B199 /* iMultiExpandCollapse */ = {
 			isa = PBXGroup;
 			children = (
+				14977BD01F932C430098B199 /* iMultiData.plist */,
 				14977B9D1F93270D0098B199 /* AppDelegate.h */,
 				14977B9E1F93270D0098B199 /* AppDelegate.m */,
 				14977BA01F93270D0098B199 /* ViewController.h */,
@@ -240,6 +243,7 @@
 			files = (
 				14977BAA1F93270D0098B199 /* LaunchScreen.storyboard in Resources */,
 				14977BA71F93270D0098B199 /* Assets.xcassets in Resources */,
+				14977BD11F932C430098B199 /* iMultiData.plist in Resources */,
 				14977BA51F93270D0098B199 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
